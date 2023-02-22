@@ -35,8 +35,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script>
     function LogInSub() {
-        var log = new FormData(frm);
-		log.append('action','signin_data');
+      var log = new FormData(frm);
+		  log.append('action','signin_data');
         // console.log(log);
             $.ajax({
                 data : log,
@@ -53,7 +53,6 @@
                     }else{
                         alert("Sorry, something went wrong!");
                     }
-                    
                 }
             })
     }
