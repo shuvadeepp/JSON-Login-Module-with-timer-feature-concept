@@ -61,8 +61,11 @@ session_start();
         $recordDetailsFile    = 'recordDetails.json';
         $getRecordFile        = file_get_contents($recordDetailsFile);
         $decodeRecordFile     = json_decode($getRecordFile, TRUE);
-
+        // echo'<pre>';print_r($decodeRecordFile);exit;
+        // echo'<pre>';print_r($arrData);exit;
+        // 
         array_push($newdata, $decodeRecordFile, $arrData); 
+        // array_merge($newdata, $arrData); 
 
         if($get_file[$get_ParentKey]['UserName'] == $_SESSION['userName']) {
             $encodeData     = json_encode($newdata, JSON_PRETTY_PRINT);

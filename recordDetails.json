@@ -1,54 +1,14 @@
 [
     [
-        [
-            [
-                [
-                    [
-                        [
-                            {
-                                "UserName": "admin",
-                                "MobileNumber": "9686786786",
-                                "Time": "3"
-                            },
-                            {
-                                "UserName": "admin",
-                                "MobileNumber": "9861659130",
-                                "Time": "9"
-                            }
-                        ],
-                        {
-                            "UserName": "admin",
-                            "MobileNumber": "7565676666",
-                            "Time": "5"
-                        }
-                    ],
-                    {
-                        "UserName": "admin",
-                        "MobileNumber": "6666666666",
-                        "Time": "3"
-                    }
-                ],
-                {
-                    "UserName": "admin",
-                    "MobileNumber": "5555555555",
-                    "Time": "20"
-                }
-            ],
-            {
-                "UserName": "admin",
-                "MobileNumber": "9111111111",
-                "Time": "4"
-            }
-        ],
         {
-            "UserName": "admin",
-            "MobileNumber": "9999999999",
-            "Time": "5"
+            "UserName": "supAdmin",
+            "MobileNumber": "6978987987",
+            "Time": "4"
         }
     ],
     {
         "UserName": "supAdmin",
-        "MobileNumber": "8886767877",
-        "Time": "4"
+        "MobileNumber": "6898797898",
+        "Time": "2"
     }
 ]
